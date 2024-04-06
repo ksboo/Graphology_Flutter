@@ -54,6 +54,29 @@ Replace `<service>` with the name of the Firebase service you want to add.
 8. **Verify Connection**:
 - Run your Flutter app and check the console for any Firebase-related messages or errors.
 
+## **Running the Project:**
+
+   To run the Flutter project on your local machine or different platforms, follow these steps:
+
+   - **Open the Project:**
+     Navigate to the directory where your Flutter project is located using your terminal or command prompt. 
+
+     For macOS:
+     ```
+     open -a simulator
+     flutter run
+     ```
+
+   - **For Android/Windows:**
+
+     If you're planning to run the project on an emulator or physical device, ensure that it is properly configured and connected to your development machine.
+
+     - **For Android:**
+       Open Android Studio and launch the Android Virtual Device (AVD) Manager to start an emulator then run command :
+       ```
+       flutter run
+       ```
+
 ## MODEL FLASK APP
 
 ### Setup Steps:
