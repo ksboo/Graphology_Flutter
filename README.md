@@ -12,3 +12,13 @@ MODEL FLASK APP:
 2. Add your .h5 model to the folder
 3. Change the .h5 path in the python file
 4. Run server before running flutter app
+
+Contributors
+------------
+
+- Khushboo Shrivastava
+
+License
+-------
+
+This project is licensed under the [MIT License](LICENSE).
