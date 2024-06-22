@@ -10,49 +10,42 @@ Graphology App that contains an AI Model to analyze handwriting (Python - Flask 
    - For Windows: [Setup Guide](https://medium.com/@m.yuvaraj2303/flutter-programming-for-android-with-vscode-instead-of-using-android-studio-in-windows-af20f2d67e81)
    - For Mac: [Setup Guide](https://wahyu-ehs.medium.com/setup-flutter-on-mac-with-vscode-editor-3b9653773e85)
 
-2. Add the given `lib` folder files into the `lib` folder.
+## Setup Instructions
 
-3. Add dependencies mentioned in `pubspec.yaml` file:
-   - Install the Pubspec Assist (VS Code Extension) if not already installed.
-   - Open your project in Visual Studio Code.
-   - Open `pubspec.yaml` file and add dependencies using Pubspec Assist.
-   - Follow the instructions prompted by Pubspec Assist to add dependencies.
+1. **Create a New Flutter Project**
+    ```sh
+    flutter create student_hub
+    cd student_hub
+    ```
+
+2. **Copy Files from the GitHub Repository**
+    - Copy the files from the `lib` folder in the provided GitHub link into your project's `lib` folder.
+
+3. **Update `pubspec.yaml`**
+    - Compare the `pubspec.yaml` file from the provided GitHub link and update your `pubspec.yaml` with the necessary dependencies and configurations.
+
+4. **Create Assets Folder**
+    - In the root directory of the project, create an `assets` folder:
+    ```sh
+    mkdir assets
+    ```
+    add the files in the github link's assets folder to your assets folder
 
 ### Connecting to Firebase
 
-Follow the instructions below to connect your Flutter project to Firebase using the FlutterFire CLI tool.
+6. **Integrate Firebase Using CLI**
+    - Follow the instructions to integrate Firebase using the Firebase CLI:
+    ```sh
+    # Install Firebase CLI if you haven't already
+    npm install -g firebase-tools
 
-1. **Install FlutterFire CLI**:
+    # Login to Firebase
+    firebase login
 
-          npm install -g flutterfire-cli
-
-2. **Authenticate with Firebase**:
-
-        firebase login
-
+    # Choose the project in your firebase console
+    flutterfire configure
+    ```
    
-3. **Initialize Flutter Project**:
-Navigate to your Flutter project directory in the terminal.
-
-4. **Connect to Firebase**:
-
-       flutterfire init
-
-
-5. **Configure Firebase Services**:
-- Configure Firebase services such as Authentication, Firestore, Realtime Database, etc., directly from the Firebase Console.
-
-6. **Add Firebase Plugins**:
-
-        flutterfire add <service>
-
-Replace `<service>` with the name of the Firebase service you want to add.
-
-7. **Initialize Firebase Services**:
-- Initialize Firebase services in your Flutter project as per the documentation of each Firebase plugin.
-
-8. **Verify Connection**:
-- Run your Flutter app and check the console for any Firebase-related messages or errors.
 
 ## **Running the Project:**
 
