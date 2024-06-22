@@ -14,8 +14,8 @@ Graphology App that contains an AI Model to analyze handwriting (Python - Flask 
 
 1. **Create a New Flutter Project**
     ```sh
-    flutter create student_hub
-    cd student_hub
+    flutter create project_name
+    cd project_name
     ```
 
 2. **Copy Files from the GitHub Repository**
