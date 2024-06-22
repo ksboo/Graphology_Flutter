@@ -43,6 +43,7 @@ Graphology App that contains an AI Model to analyze handwriting (Python - Flask 
     firebase login
 
     # Choose the project in your firebase console
+       # you need to have a project in your firebase console, if not - create one
     flutterfire configure
     ```
    
